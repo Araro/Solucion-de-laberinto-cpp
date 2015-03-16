@@ -750,7 +750,7 @@ void despliegaArreglo ( const char laberinto[][ COLUMNAS ] )
         	cout << red << "Usted a posicionado el robot fuera del laberinto \n" << normal;
         	cout << red << "Intente otra posicion \n" << normal;
         }
-        if ( m <= 9 && n <= 9)
+        if ( m <= FILAS && n <= COLUMNAS)
         {
         	if (laberinto[ m ][ n ] == '0')
         	{
