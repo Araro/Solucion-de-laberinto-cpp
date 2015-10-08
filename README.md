@@ -1,5 +1,5 @@
 # Solucion-de-laberinto-cpp
-Se muestra como se implemento el algoritmo de la mano derecha para la solucion de un laberinto en cpp
+Se muestra como se implemento el algoritmo de la mano derecha para la solución de un laberinto en cpp
 
 El algoritmo se implemento en Ubuntu 14.10 y utiliza la libreria concolor.h configurada para funcionar en linux.
 
@@ -20,7 +20,6 @@ cout << "El laberinto es el siguiente: \n\n";
 Ademas el archivo laberinto.cpp ejecuta el borrado de consola nativo en linux de la siguiente manera:
 system("/usr/bin/clear");
 
-Si usted utiliza windows es necesario configurar el borrado de la consola de froma adecuada segun el sistema operativo donde se ejecute 
-el programa.
+Si usted utiliza windows es necesario configurar el borrado de la consola de forma adecuada segun el sistema operativo donde se ejecute el programa.
 
 Cabe destacar que este programa utiliza el algoritmo de la mano derecha para la solucion del laberinto, de tal manera que si usted coloca el robot al lado de una isla, este se quedara dando vueltas alrededor de la isla sin encontrar la salida. 
